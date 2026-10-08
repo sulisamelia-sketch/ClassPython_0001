@@ -14,4 +14,13 @@ class PersegiPanjang:
                 return f"Persegi Panjang, panjang {self.panjang} cm, dan lebar {self.lebar} cm"
            
     input_panjang = int(input("Masukkan panjang (cm): "))
+    while input_panjang == 0:
+                       print("Panjang tidak boleh 0!")
+                       input_panjang = int(input("Masukkan panjang lagi (cm): "))
+                   
+    input_lebar = int(input("Masukkan lebar (cm): "))
+    while input_lebar == 0:
+                           print("Lebar tidak boleh 0!")
+                           input_lebar = int(input("Masukkan lebar lagi (cm): "))
+                       
     
