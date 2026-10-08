@@ -3,4 +3,7 @@ class PersegiPanjang:
         self.panjang = panjang
         self.lebar = lebar
 
+    def hitung_luas(self):
+               return self.panjang * self.lebar
    
+    
