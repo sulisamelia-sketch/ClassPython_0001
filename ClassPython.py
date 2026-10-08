@@ -27,4 +27,4 @@ class PersegiPanjang:
                            
     print(pp)
     print("keliling:", pp.hitung_keliling())
-    
+    print("Luas:", pp.hitung_luas())
