@@ -23,4 +23,6 @@ class PersegiPanjang:
                            print("Lebar tidak boleh 0!")
                            input_lebar = int(input("Masukkan lebar lagi (cm): "))
                        
-    
+    pp = PersegiPanjang(input_panjang, input_lebar)
+                           
+   
