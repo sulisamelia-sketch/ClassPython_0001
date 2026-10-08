@@ -25,4 +25,5 @@ class PersegiPanjang:
                        
     pp = PersegiPanjang(input_panjang, input_lebar)
                            
-   
+    print(pp)
+    
